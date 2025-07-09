@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my first website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      .nav-list {
+        height: 50px;
+        background-color: black;
+        color: white;
+      }
+
+      .nav-list ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+
+      .nav-list ul li {
+        margin-left: 75px;
+      }
+      .nav-list ul li a {
+        text-decoration: none;
+        color:#007bff;
+      }
+
+      .logo img {
+        vertical-align: middle;
+      }
+
+      input[type="search"] {
+        padding: 5px;
+        border-radius: 3px;
+        border: none;
+      }
+
+      button {
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+
+      .container {
+        background-color: darkgrey;
+        display: flex;
+        margin-top: 30px;
+        padding-left: 35px;
+        position: relative;
+        gap: 76px;
+      }
+
+      .box1,
+      .box2,
+      .box3,
+      .box4,
+      .box5,
+      .box6,
+      .box7,
+      .box8,
+      .box9,
+      .box10 {
+        height: 40vh;
+        width: 15vw;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding-bottom: 10px;
+      }
+
+      .box1 {
+        background-color: red;
+        background-image: url(/img/16\ pro\ max\ black.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .box2 {
+        background-color: red;
+        background-image: url(/img/16pro\ white.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .box3 {
+        background-color: red;
+        background-image: url(/img/fold6.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .box4 {
+        background-color: red;
+        background-image: url(/img/flip6.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .box5 {
+        background-color: red;
+        background-image: url(/img/s25\ ultra\ white.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .box6 {
+        background-color: red;
+        background-image: url(/img/16plus\ white.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .box7 {
+        background-color: red;
+        background-image: url(/img/16blue.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .box8 {
+        background-color: red;
+        background-image: url(/img/16e\ black.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .box9 {
+        background-color: red;
+        background-image: url(/img/macbookair.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .box10 {
+        background-color: red;
+        background-image: url(/img/apple\ watch.webp);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      #tree1,
+      #tree2,
+      #tree3,
+      #tree4,
+      #tree5,
+      #tree6,
+      #tree7,
+      #tree8,
+      #tree9,
+      #tree10 {
+        color: rgb(71, 13, 13);
+        text-transform: uppercase;
+        text-align: center;
+        border: 2px solid red;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: 100%;
+      }
+      footer {
+        padding-top: 10px;
+        background-color: black;
+         color: white; 
+         padding: 20px; 
+         text-align: center;
+
+      }
+      footer a {
+        text-decoration: none;
+         color: #007bff
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+    <nav class="nav-list">
+      <ul>
+        <li class="logo">
+          <img
+            src="/image/logo-search-grid-2x.png"
+            alt="logo"
+            height="25px"
+            width="30px"
+          />
+        </li>
+        <li><a href="home.html" target="_blank">Home</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+        <li>
+          <input type="search" name="" id="" placeholder="search" />
+          <button value="submit">search</button>
+        </li>
+        <li><a href="login.html" target="_blank">Login</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div class="container">
+      <div class="box1">
+        <div id="tree1">iPhone 16 Pro Max</div>
+      </div>
+      <div class="box2"><div id="tree2">iPhone 16 Pro</div></div>
+      <div class="box3"><div id="tree3">Samsung Galaxy Z Fold6</div></div>
+      <div class="box4"><div id="tree4">Samsung Galaxy Z Flip6</div></div>
+      <div class="box5"><div id="tree5">Samsung Galaxy S25 Ultra 5G</div></div>
+    </div>
+    <div class="container">
+      <div class="box6"><div id="tree6">iPhone 16 Plus</div></div>
+      <div class="box7"><div id="tree7">iPhone 16</div></div>
+      <div class="box8"><div id="tree8">iPhone 16e</div></div>
+      <div class="box9"><div id="tree9">Apple 2025 MacBook Air</div></div>
+      <div class="box10"><div id="tree10">Apple Watch Series 10</div></div>
+    </div>
+    <footer>
+  <p>&copy; 2025 Lalit With Code. All rights reserved.</p>
+  <p>
+    <a href="/privacy-policy">Privacy Policy</a> | 
+    <a href="/terms-of-service">Terms of Service</a>
+  </p>
+  <p>Follow us on: 
+    <a href="https://facebook.com" target="_blank">Facebook</a>, 
+    <a href="https://twitter.com" target="_blank">Twitter</a>, 
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+  </p>
+</footer>
+
+  </body>
+</html>
